@@ -1,0 +1,23 @@
+.header
+{
+    color: hsl(0,0%,95%);
+    background: hsl(0,0%,35%);
+
+    padding: 8mm;
+    padding-left: 81mm;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3mm;
+}
+
+.header-title
+{
+    font-size: 22px;
+}
+
+.underline
+{
+    background: white;
+    height: 0.5mm;
+}

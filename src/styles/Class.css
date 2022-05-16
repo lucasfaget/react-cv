@@ -1,0 +1,57 @@
+.bold
+{
+    font-weight: bold; 
+}
+
+.classHeader
+{
+    display: flex;
+}
+
+.classKeyword
+{
+    color: hsl(0,0%,95%);
+    background: hsl(0,0%,40%);
+
+    padding-block: 1.5mm;
+    padding-inline: 2.5mm;
+
+    border-radius: 15px 0 15px 0;
+}
+
+.classTitle
+{
+    flex: 1;
+
+    padding-block: 1.5mm;
+    padding-inline: 2.5mm;
+
+    border-top: 1px solid hsl(0,0%,40%);
+}
+
+.classContent
+{
+    margin-left: 10mm;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3mm;
+}
+
+.taskList
+{
+    margin-top: 3mm;
+    margin-left: 5mm;
+
+    list-style: square;
+}
+
+.languageList
+{
+    list-style: square;
+}
+
+.interestList
+{
+    list-style: square;
+}

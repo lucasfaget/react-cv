@@ -1,0 +1,33 @@
+.main
+{
+    color: hsl(0,0%,10%);
+
+    flex: 1;
+
+    width: 121mm;
+    height: 281mm;
+
+    padding: 8mm;
+    padding-left: 81mm;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8mm;
+}
+
+.mainBottom
+{
+    display: flex;
+    gap: 15mm;
+}
+
+.mainBottomRight
+{
+    flex: 1;
+}
+
+.footer
+{
+    font-style: italic;
+    opacity: 0.6;
+}

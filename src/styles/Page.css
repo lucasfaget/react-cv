@@ -1,0 +1,12 @@
+.page
+{
+    background: hsl(203,92%,90%);
+
+    width: 210mm;
+    height: 297mm;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: Tahoma;
+}

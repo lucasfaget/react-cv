@@ -1,0 +1,114 @@
+.aside
+{
+    color: hsl(0,0%,20%);
+    background: #fff;
+
+    width: 65mm;
+    height: 281mm;
+
+    margin-top: 8mm;
+    margin-left: 8mm;
+
+    border-radius: 65mm;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5mm;
+
+    position: absolute;
+    z-index: 100;
+}
+
+.picture
+{
+    background-image: url("../assets/picture.jpg");
+    background-size: 55mm;
+
+    height: 55mm;
+    width: 55mm;
+
+    margin-top: 5mm;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 100%;
+}
+
+.line
+{
+    background: black;
+
+    height: 1px;
+    width: 20mm;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+.name
+{
+    text-align: center;
+
+    font-size: 30px;
+}
+
+.data
+{
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3mm;
+}
+
+.logos
+{
+    display: flex;
+    flex-direction: column;
+    gap: 3mm;
+}
+
+.logo-line
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3mm;
+}
+
+.frameworks
+{
+    display: flex;
+    flex-direction: column;
+    gap: 3mm;
+}
+
+.framework
+{
+    margin-inline: 5mm;
+
+    display: flex;
+    gap: 3mm;
+}
+
+.framework-name
+{
+    text-align: right;
+    width: 35%;
+}
+
+.framework-progress
+{
+    width: 55%;
+}
+
+.skills
+{
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2mm;
+}
