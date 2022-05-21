@@ -23,7 +23,7 @@ export const aside = {
         },
         {
             name: "Angular",
-            state: "10",
+            state: "20",
         },
     ],
 
